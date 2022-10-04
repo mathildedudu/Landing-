@@ -1,0 +1,69 @@
+/* Write some CSS below */
+h1{
+	color: #8A0886;
+	font-family: Alkalami,serif,;
+	font-weight: bold;
+	text-align: center;
+	font-size: 45px;
+}
+
+
+
+h3{
+	color:#4111C7 ;
+	font-family: Dancing Script, cursive;
+	text-decoration : none;
+	text-align: center;
+	font-size:30px;
+
+}
+p{
+	color: #8A85D2;
+	font-family: Alkalami, cursive;
+	font-size:25px;
+	text-align: center;
+}
+
+a{
+	color: #FFFFFF;
+	font-weight: arial;
+	text-align: center;
+
+}
+
+h2{
+	color: #0489B1;
+	font-family: Alkalami; serif; 
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.bnt-blue{
+background-color:#0404B4;
+border-radius:5px;
+width: 200px;
+height: 36px;
+padding: 7px 0px 0px 0px;
+margin:0 auto;
+}
+
+
+.image-card{
+	width: 250px;
+}
+
+.campus-card{
+	height:350px;
+	width: 250px;
+	border:5px solid darkblue;
+	border-radius:5px;
+	margin: 10px;
+}
+
+.cards{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
