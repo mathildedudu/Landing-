@@ -1,6 +1,6 @@
 /* Write some CSS below */
 h1{
-	color: #8A0886;
+	color: #CE557D;
 	font-family: Alkalami,serif,;
 	font-weight: bold;
 	text-align: center;
@@ -10,7 +10,7 @@ h1{
 
 
 h3{
-	color:#4111C7 ;
+	color:black ;
 	font-family: Dancing Script, cursive;
 	text-decoration : none;
 	text-align: center;
@@ -18,10 +18,11 @@ h3{
 
 }
 p{
-	color: #8A85D2;
+	color: #CE557D;
 	font-family: Alkalami, cursive;
 	font-size:25px;
 	text-align: center;
+	/*line-height*/: 1.6;
 }
 
 a{
@@ -32,20 +33,32 @@ a{
 }
 
 h2{
-	color: #0489B1;
+	color: grey;
 	font-family: Alkalami; serif; 
-	text-decoration: underline;
+	text-decoration: none;
 	text-align: center;
 
 }
 
+.banner{
+	height: 500px;
+	width:auto ;
+	background-image:url(images/intérieur3.JPG);
+	background-size: cover;
+	text-align: center;
+	padding-top: 30px;
+	margin: 30px 30px 30px;
+}
+
+
 .bnt-blue{
-background-color:#0404B4;
+background-color:#CE557D;
 border-radius:5px;
 width: 200px;
 height: 36px;
 padding: 7px 0px 0px 0px;
 margin:0 auto;
+text-align: center;
 }
 
 
@@ -56,14 +69,23 @@ margin:0 auto;
 .campus-card{
 	height:350px;
 	width: 250px;
-	border:5px solid darkblue;
+	border:5px solid #CE557D;
 	border-radius:5px;
+	background-color:#B9B9B9;
 	margin: 10px;
 }
 
 .cards{
-	margin: 0 auto;
+	margin: 40px auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
+
 }
+
+#informations{
+	margin: 30px 30px 0px 30px;
+	background-color: #FFF1B3;
+
+}
+
